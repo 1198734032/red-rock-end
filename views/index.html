@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../icon_3/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../icon_2/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../views/index.css" />
+    <link rel="stylesheet" type="text/css" href="../views/search.css" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="head">
+            <div id="head-bar">
+                <div>〈</div>
+                <div id="choose_place">
+                    <span class="iconfont icon-ditu" style="font-size:1.2rem;color: white;"></span>
+                    <span id="place">北京</span>
+                </div>
+                <div>
+                    <span class="iconfont icon-iconzhengli_fenxiang" style="color: white;font-size: 1.7rem;"></span>
+                </div>
+            </div>
+            <div id="weather-now">
+                <div id="du">18</div>
+                <div id="word">晴</div>
+                <div id="sentence">生活很美好~</div>
+            </div>
+        </div>
+        <div class="search">
+            <div id="search-bar">
+                <div id="search-ipt-content">
+                    <span class="iconfont icon-sousuo" id="click_search"></span>
+                    <input id="search-ipt" placeholder="输入完成后点击搜索图标">
+                </div>
+                <div id="cancel"><a>取消</a></div>
+            </div>
+            <div id="classify">
+                <div class="part">
+                    <p>历史记录</p>
+                    <div class="content" id="history">
+                    </div>
+                </div>
+                <div class="part">
+                    <p>热门城市</p>
+                    <div class="content" id="hot-country">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="part-one">
+            <div class="one-item">
+                <div class="one-top">
+                    <span>今天</span>
+                    <span id="tem_today"></span>
+                </div>
+                <div class="one-bottom">
+                    <span id="wea_today"></span>
+                    <span id="t_icon"></span>
+                </div>
+            </div>
+            <div class="one-item">
+                <div class="one-top">
+                    <span>明天</span>
+                    <span id="tem_tomorrow"></span>
+                </div>
+                <div class="one-bottom">
+                    <span id="wea_tomorrow"></span>
+                    <span id="m_icon"></span>
+                </div>
+            </div>
+        </div>
+        <div id="part-two">
+            <ol id="two_ol">
+            </ol>
+        </div>
+        <div id="part-three">
+            <ol id="three-ol">
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data">25</p>
+                        <p class="wea-d">晴</p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span class="night-icon"></span></p>
+                        <p class="wea-n">24</p>
+                        <p class="win">东</p>
+                        <p class="win_speed">5m/s</p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+                <li class="three-item">
+                    <div class="three-top">
+                        <p class="data"></p>
+                        <p class="wea-d"></p>
+                        <p><span class="day-icon"></span></p>
+                    </div>
+                    <div class="three-button">
+                        <p><span  class="night-icon"></span></p>
+                        <p class="wea-n"></p>
+                        <p class="win"></p>
+                        <p class="win_speed"></p>
+                    </div>
+                </li>
+            </ol>
+            <div id="line">
+                <canvas id="myCanves"></canvas>
+            </div>
+        </div>
+
+
+        
+        <script src="../views/chart.js"></script>
+        <script src="../views/sendGET.js"></script>
+        <script src="../views/chooseIcon.js"></script>
+        <script src="../views/search.js"></script>
+        <script src="../views/index.js"></script>
+        <script src="../node_modules/chart.js/dist/Chart.js"></script>
+       
+
+</body>
+
+</html>
